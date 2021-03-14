@@ -38,6 +38,26 @@ header{
   margin-bottom: 60px;
   text-align: center;
 }
+
+.styled {
+  border: 0;
+  line-height: 3em;
+  padding: 0 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 7px;
+  background-color: rgb(121, 198, 231);
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+  cursor:pointer;
+}
+
+.styled:hover {
+  background-color: pink;
+}
+
+}
 footer{
   text-align:center;
 }
