@@ -3,6 +3,8 @@ body{
   color:#333;
   font-family:Verdana, sans-serif;
 }
+/* header */
+
 header{
   height:131px;
   background:rgb(121, 198, 231);
@@ -24,17 +26,19 @@ header{
   margin-left:32px;
 }
 
-.hobby{
+/* section */
+
+#hobby{
   width:400px;
   margin-left: auto;
   margin-right: auto;
 }
-.hobby>h1{
+#hobby>h1{
   margin-top: 60px;
   margin-bottom: 60px;
   text-align:center;
 }
-.hobby>section{
+#hobby>section{
   margin-bottom: 60px;
   text-align: center;
 }
@@ -47,17 +51,22 @@ header{
   text-align: center;
   color: #fff;
   border-radius: 7px;
-  background-color: rgb(121, 198, 231);
+  background-color: hsl(200, 80%, 67%);
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
               inset -2px -2px 3px rgba(0, 0, 0, .6);
   cursor:pointer;
+  transition:background .3s;
 }
 
 .styled:hover {
-  background-color: pink;
+  background-color: hsl(200, 80%, 77%);
 }
 
 }
 footer{
   text-align:center;
+}
+/* SP */
+
+
 }
