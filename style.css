@@ -7,9 +7,9 @@ body{
 
 header{
   height:131px;
-  background:rgb(121, 198, 231);
   padding-top: 32px;
   padding-bottom:32px;
+  background:rgb(121, 198, 231);
 }
 .container{
   width:400px;
@@ -62,11 +62,13 @@ header{
   background-color: hsl(200, 80%, 77%);
 }
 
+/* -----footer----- */
+
 }
 footer{
   text-align:center;
 }
+
 /* SP */
 
 
-}
